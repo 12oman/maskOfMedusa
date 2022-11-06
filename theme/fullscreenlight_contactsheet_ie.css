@@ -1,0 +1,15 @@
+/* Stylesheet specific for IE */
+
+
+.galleria-thumbnails-list {
+	text-align: center;
+}
+
+.galleria-thumbnails .galleria-image { /* ie hack */ display: inline; float: none;} 
+ 
+.galleria-info{
+	/*0.4 alpha*/
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF46,endColorstr=#FFFFFF46);
+	zoom: 1;
+}
